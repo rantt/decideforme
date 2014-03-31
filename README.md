@@ -1,6 +1,6 @@
 # DecideForMe
 
-Based on the [Creating a Roulette Wheel UsingHTML5 Canvs](http://tech.pro/tutorial/1008/creating-a-roulette-wheel-using-html5-canvas) tutorial.
+Based on the [Creating a Roulette Wheel Using HTML5 Canvas](http://tech.pro/tutorial/1008/creating-a-roulette-wheel-using-html5-canvas) tutorial.
 
 
 This version generates a spinning wheel to choose and option from a comma-separated list.  Items are shuffled before being added to the wheel.  Sizing changes dynamically fit the items and colourize the wheel appropriately.
