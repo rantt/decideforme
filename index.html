@@ -14,9 +14,9 @@ function shuffle(o){ //v1.0
 
 var query = window.location.search.substring(1);
 items = shuffle(decodeURIComponent(query).split(',')); //shuffle array
-
+alert(items);
 // Default Values if empty
-if (items == []) {
+if (items == "") {
   items = ["YES","NO"];
 }
 
