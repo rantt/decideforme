@@ -16,7 +16,7 @@ var query = window.location.search.substring(1);
 items = shuffle(decodeURIComponent(query).split(',')); //shuffle array
 
 // Default Values if empty
-if (items == []) {
+if (items == "") {
   items = ["YES","NO"];
 }
 
