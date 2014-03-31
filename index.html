@@ -12,9 +12,13 @@ function shuffle(o){ //v1.0
 	        return o;
 };
 
-var query = window.location.search;
-query = query.substring(1,query.length-1);
+var query = window.location.search.substring(1);
 items = shuffle(decodeURIComponent(query).split(',')); //shuffle array
+
+// Default Values if empty
+if (items == []) {
+  items = ["YES","NO"];
+}
 
 
 var rainbow = new Rainbow();  //colorize our wheel
